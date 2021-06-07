@@ -17,6 +17,11 @@ class BooksController < ApplicationController
     end
     @book = Book.new
   end
+  
+  def category
+    
+    
+  end
 
   def create
     @book = Book.new(book_params)
